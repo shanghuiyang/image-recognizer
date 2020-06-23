@@ -1,5 +1,5 @@
 # image-recognizer
-image-recognizer uses the Baidu API to implement image recognition
+image-recognizer uses the Baidu API to implement image recognition in pure golang.
 
 ## Usage
 Suppose that you have had the `AppKey` and `SecretKey` from the [Baidu AI Platform](https://ai.baidu.com). Replace `your_app_key` and `your_secret_key` with yours in main.go.

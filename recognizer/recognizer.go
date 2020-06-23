@@ -53,11 +53,11 @@ func (r *Recognizer) Recognize(imageFile string) (string, error) {
 		return "", err
 	}
 
-	reqURL := fmt.Sprintf("%v?access_token=%v", baiduURL, token)
 	formData := url.Values{
-		"image": {b64img},
+		"access_token": {token},
+		"image":        {b64img},
 	}
-	resp, err := http.PostForm(reqURL, formData)
+	resp, err := http.PostForm(baiduURL, formData)
 	if err != nil {
 		return "", err
 	}

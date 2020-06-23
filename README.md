@@ -6,9 +6,8 @@ Suppose that you have had the `AppKey` and `SecretKey` from the [Baidu AI Platfo
 ```go
 // ...
 const (
-	// replace your_app_key with your app key
+	// replace your_app_key and your_secret_key with yours
 	appKey    = "your_app_key"
-	// replace your_secret_key with your secret key
 	secretKey = "your_secret_key"
 )
 // ...

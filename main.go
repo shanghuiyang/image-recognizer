@@ -10,9 +10,8 @@ import (
 )
 
 const (
-	// replace your_app_key with your app key
-	appKey = "your_app_key"
-	// replace your_secret_key with your secret key
+	// replace your_app_key and your_secret_key with yours
+	appKey    = "your_app_key"
 	secretKey = "your_secret_key"
 )
 

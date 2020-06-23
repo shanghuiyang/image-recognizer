@@ -5,8 +5,18 @@
 *.so
 *.dylib
 
+*.mac
+*.pi
+*.stg
+*.dev
+/deploy.py
+/main
+/image-recognizer
+/tmp
+
 # Test binary, built with `go test -c`
 *.test
+.DS_store
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out

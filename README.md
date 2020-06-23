@@ -19,3 +19,5 @@ build and test.
 $ go build
 $ ./image-recognizer images/orenge.jpg
 ```
+
+<img src="images/usage.jpg" width=80% height=80% />

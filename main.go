@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shanghuiyang/image-recognizer/oauth"
+	"github.com/shanghuiyang/go-speech/oauth"
 	"github.com/shanghuiyang/image-recognizer/recognizer"
 )
 

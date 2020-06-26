@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/shanghuiyang/image-recognizer/oauth"
+	"github.com/shanghuiyang/go-speech/oauth"
 )
 
 const (
